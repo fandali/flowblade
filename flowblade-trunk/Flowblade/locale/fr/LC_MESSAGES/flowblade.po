@@ -39,39 +39,41 @@ msgstr "Sauvegardez le projet avec Fichier -> Enregistrer sous."
 
 #: projectaction.py:128
 msgid "Media asset was missing!"
-msgstr ""
+msgstr "Un média est n'a pas été trouvé !"
 
 #: projectaction.py:129
 msgid "Path of missing asset:"
-msgstr ""
+msgstr "Chemin vers le média manquant :"
 
 #: projectaction.py:130
 msgid ""
 "Relative search for replacement file in sub folders of project file failed."
 msgstr ""
+"La recherche pour un fichier de remplacement dans d'autres répertoires a échoué."
 
 #: projectaction.py:131
 msgid "To load the project you will need to either:"
-msgstr ""
+msgstr "Pour charger le projet, vous devez soit :"
 
 #: projectaction.py:132
 msgid ""
 "Open project in 'Media Relinker' tool to relink media assets to new files, or"
 msgstr ""
+"Ouvrir le projet dans le 'Relieur de médias' pour assigner un nouveau fichier au média ou"
 
 #: projectaction.py:133
 #, fuzzy
 msgid "Place a file with the same exact name and path on the hard drive"
-msgstr "Créez un fichier de même nom au contenu similaire pour pouvoir"
+msgstr "Créez un fichier de même nom au contenu similaire au même emplacement"
 
 #: projectaction.py:134
 msgid "Open project in Media Relinker tool"
-msgstr ""
+msgstr "Ouvrir le projet dans le 'Relieur de médias'"
 
 #: projectaction.py:153
 #, fuzzy
 msgid "Profile with Description: '"
-msgstr "Description:"
+msgstr "Le profil décrit comme ':"
 
 #: projectaction.py:153
 #, fuzzy
@@ -84,10 +86,13 @@ msgid ""
 "the same Description\n"
 "as the missing profile. "
 msgstr ""
+"Il est possible de charger le projet en créant un profil d'utilisateur avec "
+" une description identique\n"
+" au profil manquant."
 
 #: projectaction.py:155
 msgid "User Profiles can be created by selecting 'Edit->Profiles Manager'."
-msgstr ""
+msgstr "Un profil d'utilisateur peut être crée via 'Édition->Gestionnaire de profils'."
 
 #: projectaction.py:162
 msgid "Opening"
@@ -95,40 +100,46 @@ msgstr "Ouverture"
 
 #: projectaction.py:297
 msgid "Media files already present in project were opened!"
-msgstr ""
+msgstr "Des médias déjà inclus dans le projet ont été ouvert !"
 
 #: projectaction.py:303
 #, fuzzy
 msgid ""
 "Files already present:\n"
 "\n"
-msgstr " existe déjà!"
+msgstr ""
+"Les fichiers déjà inclus :\n"
+"\n"
 
 #: projectaction.py:310
 msgid ""
 "\n"
 "No duplicate media items were added to project."
 msgstr ""
+"\n"
+"Aucun élément de média duppliqué n'ont été ajoutés au projet."
 
 #: projectaction.py:507
 #, fuzzy
 msgid "Selected folder contains files"
-msgstr "Sélectionner un dossier pour les nouvelles miniatures"
+msgstr "Sélectionner un répertoire contenant les fichiers"
 
 #: projectaction.py:508
 msgid ""
 "When saving a back-up snapshot of the project, the selected folder\n"
 "has to be empty."
 msgstr ""
+"Quand vous créer une copie de sauvegarde du projet, le répertoire\n"
+"séléctionné doit être vide."
 
 #: projectaction.py:562
 msgid "Copying project media assets"
-msgstr ""
+msgstr "Copie les instances de média du projet"
 
 #: projectaction.py:563
 #, fuzzy
 msgid "Saving project file"
-msgstr "Sauvegarder le projet '"
+msgstr "Sauvegarde le fichier du projet"
 
 #: projectaction.py:718
 msgid "Project not found on disk"
@@ -161,7 +172,7 @@ msgstr " minutes."
 #: projectaction.py:744
 #, fuzzy
 msgid "Render target file exists!"
-msgstr "Zone de rendu non définie!"
+msgstr "Le fichier cible pour le rendu existe !"
 
 #: projectaction.py:745
 #, fuzzy
@@ -170,7 +181,7 @@ msgstr "Voulez-vous écraser le fichier existant?"
 
 #: projectaction.py:751
 msgid "Project is currently using proxy media!"
-msgstr ""
+msgstr "Le projet utilise actuellement des médias proxy !"
 
 #: projectaction.py:752
 msgid ""
@@ -180,11 +191,16 @@ msgid ""
 "\n"
 "Select 'Confirm' to render from proxy media anyway."
 msgstr ""
+"Un rendu fait à partir de médias proxy va produire une vidéo "
+"de mauvaise qualité.\n"
+"Utilisez plutôt vos médias d'origine dans le gestionnaire de proxy.\n"
+"\n"
+"Sélectionnez 'Confirmer' pour effectuer un rendu avec les proxy malgré tout."
 
 #: projectaction.py:829
 #, fuzzy
 msgid "Render launch failed!"
-msgstr "Zone de rendu non définie!"
+msgstr "Le démarrahe du rendu a échoué !"
 
 #: projectaction.py:830 projectaction.py:844 tools/batchrendering.py:304
 #, fuzzy
